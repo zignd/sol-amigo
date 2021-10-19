@@ -22,12 +22,36 @@
     </nav>
   </header>
 
-  <main>
-    <h1>Doação</h1>
-    <p>Com a sua doação, você estará ajudando várias pessoas a terem energia elétrica em suas casas. Além disso o valor
+  <main class="main-form-center">
+    <h1 class="text-align-center">Doação</h1>
+    <p class="text-align-center">Com a sua doação, você estará ajudando várias pessoas a terem energia elétrica em suas
+      casas. Além disso o valor
       também é convertido em pontos virtuais que representam uma estimativa de quantos paineis solares você já ajudou a
       comprar.</p>
-
+    <section class="section-form-center">
+      <label for="mensalUnica">Doação mensal ou única?</label>
+      <select id="mensalUnica" name="mensalUnica">
+        <option value="">Selecione um tipo de doação</option>
+        <option value="mensal">Mensal</option>
+        <option value="unica">Única</option>
+      </select>
+      <fieldset>
+        <legend>Qual o valor da doação?</legend>
+        <div>
+          <input type="radio" id="rs15" name="rs15" value="15" checked>
+          <label for="rs15">R$ 15</label>
+        </div>
+        <div>
+          <input type="radio" id="rs35" name="rs35" value="35">
+          <label for="rs35">R$ 35</label>
+        </div>
+        <div>
+          <input type="radio" id="rs65" name="rs65" value="65">
+          <label for="rs65">R$ 65</label>
+        </div>
+      </fieldset>
+      <button>Doar</button>
+    </section>
   </main>
 
   <aside>

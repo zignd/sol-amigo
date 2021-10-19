@@ -46,6 +46,30 @@ main {
   width: 63%;
 }
 
+.main-form-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-form-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-form-center > * {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border-style: none;
+}
+
+fieldset > legend {
+  margin-bottom: 10px;
+}
+
 aside {
   float: right;
   margin: 0 1.5%;
