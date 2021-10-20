@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>Doação - Sol Amigo</title>
+  <title>Entrar - Sol Amigo</title>
 </head>
 
 <body>
@@ -25,42 +25,12 @@
   </header>
 
   <main class="main-form-center content">
-    <h1 class="text-align-center">Doação</h1>
-    <p class="text-align-center">Com a sua doação, você estará ajudando várias pessoas a terem energia elétrica em suas
-      casas. Além disso o valor
-      também é convertido em pontos virtuais que representam uma estimativa de quantos paineis solares você já ajudou a
-      comprar.</p>
     <section class="section-form">
-      <label for="mensalUnica">Doação mensal ou única?</label>
-      <div class="select">
-        <select id="mensalUnica">
-          <option value="">Selecione um tipo de doação</option>
-          <option value="mensal">Mensal</option>
-          <option value="unica">Única</option>
-        </select>
-      </div>
-      <fieldset>
-        <legend>Qual o valor da doação?</legend>
-        <div class="control">
-          <label class="radio">
-            <input type="radio" name="doacao" value="15" checked>
-            R$ 15
-          </label>
-        </div>
-        <div class="control">
-          <label class="radio">
-            <input type="radio" name="doacao" value="35">
-            R$ 35
-          </label>
-        </div>
-        <div class="control">
-          <label class="radio">
-            <input type="radio" name="doacao" value="65">
-            R$ 65
-          </label>
-        </div>
-      </fieldset>
-      <button class="button is-primary">Doar</button>
+      <label for="email">E-mail:</label>
+      <input class="input" id="email" type="email">
+      <label for="senha">Senha:</label>
+      <input class="input" id="senha" type="password">
+      <button class="button is-primary">Entrar</button>
     </section>
   </main>
 
